@@ -1,0 +1,91 @@
+/* Use this file to use your own styles*/
+
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Custom style for heading */
+
+h1 { 
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: brown
+}
+
+h2 { 
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: brown
+}
+
+h4 {font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: darkred
+}
+
+h5 { 
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+color: cornsilk
+}
+
+h6 { 
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+color: darkred
+}
+
+/* Styles for the body */
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
+	color: brown;
+	background-color: #f8f8fc;
+}
+
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.resume-header {
+    background-color: lightcoral;
+	border:2px double brown;
+}
+
+.resume-main {
+	background-color: peachpuff;
+	border:2px double brown;
+	border-top: 0px;
+}
+
+.resume-aside {
+	background-color: lightpink;
+	border:2px double brown;
+	border-top: 0px;
+	border-left: 0px;
+}
+.profile-picture { 
+	shape-margin: circle;
+	width: 100;
+	border-width: 2px;
+	border-color: brown;
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ".";
+	font-weight: 900;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.biography-details li::before {
+	color: coral;
+}
+
+.biography-details li, .skill-list li {
+	padding-left: 1em;
+}
+
+/* Styles for contact icons */
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1.4em;
+}
+
+.skills-icon {
+	height: 2em;
+	flex-basis: 1.4em;
+}
